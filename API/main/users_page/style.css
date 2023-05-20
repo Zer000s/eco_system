@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: 62,5%;
+}
+
+body {
+  height: 100vh;
+	width: 100%;
+  background: #0f2027;
+  background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+
+.form__group{
+  background-color:rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 500px;
+  min-height: 500px;
+}
+
+.form__input_log {
+  display:block;
+  margin: 80px 0px 0px 162px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  max-width: 175px;
+  max-height: 35px;
+  min-width: 175px;
+  min-height: 35px;
+}
+
+.form__input_pas {
+  display:block;
+  margin: 20px 0px 0px 162px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  max-width: 175px;
+  max-height: 35px;
+  min-width: 175px;
+  min-height: 35px;
+}
+
+.form__input_phone {
+  display:block;
+  margin: 20px 0px 0px 162px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  max-width: 175px;
+  max-height: 35px;
+  min-width: 175px;
+  min-height: 35px;
+}
+
+.form__input_mail {
+  display:block;
+  margin: 20px 0px 0px 162px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  max-width: 175px;
+  max-height: 35px;
+  min-width: 175px;
+  min-height: 35px;
+}
+
+.image {
+  margin: 20px 0px 0px 25px;
+  max-width: 450px;
+  max-height: 450px;
+  min-width: 450px;
+  min-height: 450px;
+}
+
+.reg {
+  margin: 20px 0px 0px 162px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  max-width: 175px;
+  max-height: 35px;
+  min-width: 175px;
+  min-height: 35px;
+}
+
+.signin {
+  display:block;
+  margin: 20px 0px 0px 162px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  max-width: 175px;
+  max-height: 35px;
+  min-width: 175px;
+  min-height: 35px;
+}
